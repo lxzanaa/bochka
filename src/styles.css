@@ -1,0 +1,267 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hover-underline {
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.hover-underline::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #0073FF;
+    transition: width 0.3s ease;
+}
+
+.hover-underline:hover::after {
+    width: 100%;
+}
+
+.hover-underline:hover {
+    color: #0073FF !important;
+}
+
+.btn-hover {
+    transition: all 0.3s ease;
+}
+
+.btn-hover:hover {
+    background-color: #005edc;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 115, 255, 0.3);
+}
+
+.btn-hover:active {
+    transform: translateY(0);
+}
+
+.border-link {
+    transition: all 0.3s ease;
+}
+
+.border-link:hover {
+    color: #0073FF !important;
+}
+
+.border-link:hover+.border-link,
+.border-link:hover~.border-r {
+    border-color: #0073FF !important;
+}
+
+.phone-link {
+    transition: color 0.3s ease;
+}
+
+.phone-link:hover {
+    color: #0073FF !important;
+}
+
+.phone-link:hover svg path {
+    fill: #0073FF;
+}
+
+.phone-link:active {
+    transform: scale(0.98);
+}
+
+.swiper-pagination-bullet {
+    padding: 0 !important;
+    margin: 0 4px !important;
+    background-color: #E0E4E9 !important;
+    opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #202124 !important;
+}
+
+.accordion-content.open {
+    max-height: 300px;
+}
+
+.sub-button.active {
+    color: #0073FF;
+}
+
+.sub-button.active .dot {
+    background-color: #0073FF;
+}
+
+.num__active {
+    color: white !important;
+    background-color: black !important;
+}
+
+.marquee-row {
+    display: flex;
+    gap: 2rem;
+    white-space: nowrap;
+    animation: marquee linear infinite;
+    width: max-content;
+}
+
+.marquee-left {
+    animation-duration: 50s;
+    animation-direction: reverse;
+}
+
+.marquee-right {
+    animation-duration: 50s;
+    animation-direction: normal;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.logo-item {
+    flex-shrink: 0;
+    height: 64px;
+    width: auto;
+}
+
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+#breadcrumb {
+    -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 1410px) {
+    .search__form {
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 1240px) {
+    .head__container {
+        gap: 10px;
+    }
+
+    .catalog {
+        display: none;
+    }
+}
+
+@media (max-width: 1170px) {
+    .head__item-link {
+        font-size: 12px;
+    }
+
+    .search__form {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 1060px) {
+    .head__btn {
+        font-size: 12px;
+        padding: 12px 18px;
+    }
+
+    .head__logo {
+        max-width: 100px;
+        width: 100%;
+    }
+
+    .search__form {
+        max-width: 250px;
+    }
+
+    .search__form input {
+        font-size: 12px;
+    }
+
+    .search__form input::placeholder {
+        font-size: 12px;
+    }
+
+    .headTop_link {
+        font-size: 12px;
+    }
+
+    .head__list {
+        gap: 12px;
+    }
+}
+
+@media (max-width: 890px) {
+    .head__item-link {
+        font-size: 11px;
+    }
+
+    .search__form {
+        max-width: 200px;
+    }
+
+    .form__search-btn {
+        max-width: 30px;
+        width: 100%;
+        height: 30px;
+    }
+
+    .form__search-btn svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .head__btn {
+        font-size: 10px;
+        padding: 10px 16px;
+    }
+
+    .products__center {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 768px) {
+    .products__center {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 640px) {
+    .search__form {
+        max-width: 100%;
+        width: 100%;
+        height: 56px;
+        padding: 8px 8px 8px 16px;
+    }
+
+    .search__form input::placeholder {
+        font-size: 14px;
+    }
+
+    .search__form input {
+        font-size: 14px;
+    }
+
+    .form__search-btn {
+        max-width: 32px;
+        width: 100%;
+        height: 32px;
+    }
+
+    .form__search-btn svg {
+        width: 20px;
+        height: 20px;
+    }
+}

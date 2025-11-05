@@ -830,6 +830,9 @@ video {
 .gap-\[1px\] {
   gap: 1px;
 }
+.gap-0 {
+  gap: 0px;
+}
 .overflow-hidden {
   overflow: hidden;
 }
@@ -866,6 +869,12 @@ video {
 .border {
   border-width: 1px;
 }
+.border-\[2px\] {
+  border-width: 2px;
+}
+.border-2 {
+  border-width: 2px;
+}
 .border-b {
   border-bottom-width: 1px;
 }
@@ -892,6 +901,12 @@ video {
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+.border-\[\] {
+  border-color: ;
+}
+.border-transparent {
+  border-color: transparent;
 }
 .bg-\[\#0073FF\] {
   --tw-bg-opacity: 1;
@@ -1013,6 +1028,9 @@ video {
 }
 .p-6 {
   padding: 1.5rem;
+}
+.p-3 {
+  padding: 0.75rem;
 }
 .px-1 {
   padding-left: 0.25rem;
@@ -1236,6 +1254,14 @@ video {
 .text-white\/50 {
   color: rgb(255 255 255 / 0.5);
 }
+.text-\[\#A4A4A4\] {
+  --tw-text-opacity: 1;
+  color: rgb(164 164 164 / var(--tw-text-opacity));
+}
+.text-\[\#001A0A\] {
+  --tw-text-opacity: 1;
+  color: rgb(0 26 10 / var(--tw-text-opacity));
+}
 .line-through {
   text-decoration-line: line-through;
 }
@@ -1281,6 +1307,9 @@ video {
 }
 .duration-500 {
   transition-duration: 500ms;
+}
+.duration-200 {
+  transition-duration: 200ms;
 }
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1584,6 +1613,11 @@ video {
   color: rgb(149 149 153 / var(--tw-text-opacity));
 }
 
+.focus-within\:border-\[\#0073FF\]:focus-within {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 115 255 / var(--tw-border-opacity));
+}
+
 .hover\:bg-\[\#0056b3\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(0 86 179 / var(--tw-bg-opacity));
@@ -1608,6 +1642,11 @@ video {
   --tw-shadow: 0px 4px 32px 0px #0000001F;
   --tw-shadow-colored: 0px 4px 32px 0px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.focus\:border-\[\#0073FF\]:focus {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 115 255 / var(--tw-border-opacity));
 }
 
 .group:hover .group-hover\:border {

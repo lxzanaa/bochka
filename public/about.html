@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+      <link rel="stylesheet" href="../src/styles.css">
+    <title>About</title>
+</head>
+
+<body class="bg-[#F4F6F9]">
+
+    <header>
+        <div class="md:flex hidden items-center justify-between gap-4 max-w-[1440px] px-3 mx-auto py-3">
+            <div>
+                <a class="headTop_link flex items-center gap-1.5 text-[#808084] font-medium text-sm leading-4 phone-link"
+                    href="#">
+                    <span class="flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="22" viewBox="0 0 20 22" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M9.7515 0C5.92538 0 2.27505 2.26303 0.74714 5.83468C-0.67482 9.1586 0.0949597 11.9873 1.69771 14.4095C3.01177 16.3954 4.92835 18.1678 6.65742 19.7668L6.65824 19.7675C6.98768 20.0722 7.31031 20.3706 7.62066 20.6629L7.62231 20.6645C8.1973 21.2028 8.9612 21.5 9.7515 21.5C10.5419 21.5 11.3058 21.2028 11.8808 20.6644C12.1743 20.3896 12.4786 20.1092 12.789 19.8232C14.5369 18.2127 16.4804 16.422 17.8082 14.4109C19.4091 11.9862 20.1761 9.1545 18.7559 5.83468C17.228 2.26303 13.5777 0 9.7515 0ZM9.75 5.75C7.54086 5.75 5.75 7.54086 5.75 9.75C5.75 11.9591 7.54086 13.75 9.75 13.75C11.9591 13.75 13.75 11.9591 13.75 9.75C13.75 7.54086 11.9591 5.75 9.75 5.75Z"
+                                fill="#0073FF" />
+                        </svg>
+                    </span>
+                    Tashkent sh, Yunusobod
+                </a>
+            </div>
+            <div class="flex items-center gap-4">
+                <ul class="flex items-center">
+                    <li>
+                        <a class="headTop_link text-[#808084] font-medium text-sm leading-4 px-4 border-r border-[#E0E4E9] border-link"
+                            href="#">Hamkor bo’lish</a>
+                    </li>
+                    <li>
+                        <a class="headTop_link text-[#808084] font-medium text-sm leading-4 px-4 border-r border-[#E0E4E9] border-link"
+                            href="#">Savol-javob</a>
+                    </li>
+                    <li>
+                        <a class="headTop_link text-[#808084] font-medium text-sm leading-4 px-4 border-r border-[#E0E4E9] border-link"
+                            href="#">Support</a>
+                    </li>
+                    <li>
+                        <a class="headTop_link flex items-center gap-2 text-[#0E0F10] font-medium text-sm leading-4 px-4 border-r border-[#E0E4E9] phone-link"
+                            href="">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19"
+                                    fill="none">
+                                    <path
+                                        d="M6.59121 2.55609L6.33796 1.98626C5.99683 1.21872 5.82626 0.83495 5.54556 0.56369C5.36028 0.38463 5.14224 0.24293 4.90336 0.14633C4.54147 1.19209e-07 4.1215 0 3.28157 0C2.03091 0 1.40559 1.19209e-07 0.918369 0.30363C0.619539 0.48985 0.333739 0.80601 0.178528 1.12206C-0.0745515 1.63735 -0.0171414 2.20507 0.0976786 3.34051C1.05041 12.7623 6.23768 17.9496 15.6594 18.9023C16.7949 19.0172 17.3626 19.0746 17.8779 18.8215C18.1939 18.6663 18.5102 18.3805 18.6964 18.0817C19 17.5944 19 16.9691 19 15.7185C19 14.8785 19 14.4586 18.8536 14.0967C18.757 13.8578 18.6154 13.6397 18.4363 13.4545C18.1651 13.1738 17.7812 13.0032 17.0138 12.6621L16.4439 12.4088C15.7713 12.1099 15.435 11.9604 15.0977 11.932C14.7389 11.9018 14.3786 11.9688 14.0545 12.1257C13.7499 12.2733 13.4897 12.5335 12.9693 13.054C12.4573 13.566 12.2013 13.822 11.8679 13.9727C11.5434 14.1194 11.0875 14.1818 10.7356 14.1276C10.374 14.0719 10.1082 13.922 9.57665 13.6221C7.69225 12.5593 6.44074 11.3078 5.37787 9.42328C5.07806 8.89178 4.92815 8.62598 4.87245 8.26428C4.81825 7.91248 4.88061 7.4565 5.02731 7.13208C5.17807 6.79869 5.43406 6.54269 5.94606 6.0307C6.46647 5.51028 6.72668 5.25008 6.87427 4.94543C7.03127 4.62137 7.09817 4.26104 7.06797 3.90223C7.03958 3.56491 6.89012 3.22863 6.59121 2.55609Z"
+                                        fill="#0073FF" class="transition-fill duration-300" />
+                                </svg>
+                            </span>
+                            +998 90 000 00 00
+                        </a>
+                    </li>
+                </ul>
+                <button class="headTop_link flex items-center gap-1.5 text-[#0E0F10] font-medium text-sm leading-4">
+                    <img src="./img/head/uz.png" alt="lang">
+                    O’zbekcha
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M6 9.00005L12 15L18 9" stroke="#0E0F10" stroke-width="1.5" stroke-miterlimit="16"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <div class="bg-white md:py-3 py-2">
+            <div class="head__container max-w-[1440px] px-3 mx-auto flex items-center gap-8 justify-between">
+                <a class="sm:flex hidden" href="#">
+                    <img class="head__logo" src="./img/head/logo.avif" alt="logo" width="150" height="33">
+                </a>
+                <form
+                    class="search__form flex items-center justify-between p-1 pl-4 bg-[#F4F6F9] max-w-[535px] w-full rounded-full ">
+                    <input type="text" required
+                        class="placeholder:text-[#959599] text-[#202124] font-medium text-sm outline-none bg-transparent border-none max-w-[400px] w-full"
+                        placeholder="Maxsulotlarlarni qidirish">
+                    <button
+                        class="form__search-btn flex max-w-[40px] w-full h-10 items-center justify-center rounded-full bg-[#0073FF]">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M17 17L21 21" stroke="white" stroke-width="1.5" stroke-linecap="square" />
+                            <path
+                                d="M19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19C15.4183 19 19 15.4183 19 11Z"
+                                stroke="white" stroke-width="1.5" stroke-linecap="square" />
+                        </svg>
+                    </button>
+                </form>
+                <ul class="head__list md:flex hidden items-center gap-6">
+                    <li><a class="head__item-link text-[#202124] font-medium text-sm leading-4 hover-underline"
+                            href="#">Biz
+                            haqimizda</a></li>
+                    <li><a class="head__item-link text-[#202124] font-medium text-sm leading-4 hover-underline"
+                            href="#">Qo‘llab-quvvatlash</a>
+                    </li>
+                    <li><a class="head__item-link text-[#202124] font-medium text-sm leading-4 hover-underline"
+                            href="#">Maxfiylik</a></li>
+                    <li><a class="head__item-link text-[#202124] font-medium text-sm leading-4 hover-underline"
+                            href="#">Ijtimoiy
+                            tarmoqlar</a>
+                    </li>
+                </ul>
+                <button
+                    class="head__btn text-white sm:block hidden font-medium text-sm leading-4 py-4 px-6 bg-[#0073FF] rounded-full btn-hover">
+                    Buyurtma berish
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-[linear-gradient(87.35deg,#000A16_-1.86%,#0073FF_111.69%)]">
+        <div class="max-w-361 mx-auto px-4 text-white flex items-end">
+            <div class="pb-15 sm:pb-9 relative z-50 pt-6 lg:pt-0">
+                <h2 class="text-2xl md:text-3xl lg:text-4xl font-semibold leading-8 md:leading-11 font-poppins mb-2">Biz
+                    haqimizda</h2>
+                <p
+                    class="text-xs md:text-base leading-4 md:leading-6 font-normal font-inter max-w-59 md:max-w-141 w-full">
+                    Qurilish uchun
+                    mo‘ljallangan bochka —
+                    bu turli xil suyuqliklar (masalan, suv, bo‘yoq, gruntovka, bitum,
+                    yoqilg‘i, yoki boshqa texnik aralashmalar)ni </p>
+            </div>
+            <div class="z-10 absolute right-0 md:static md:right-auto">
+                <img class="w-49 sm:w-100 md:w-125 lg:w-200 2xl:w-242 mb-0 2xl:-mb-23" src="./img/hero/hero-img.avif"
+                    alt="hero img" />
+            </div>
+        </div>
+    </section>
+
+
+    <section class="pt-3 md:pt-6 pb-6 md:pb-22">
+        <div class="max-w-361 mx-auto px-4">
+
+            <a href="#" class="text-[#0E0F10] font-medium leading-4 font-poppins text-sm">
+                Asosiy >
+                <span class="text-[#BCBFC3]">Biz haqimizda</span>
+            </a>
+
+            <h2
+                class="text-xl md:text-3xl lg:text-[40px] font-semibold leading-13 pt-0 md:pt-15 lg:pt-22 mb-0 md:mb-12 font-poppins">
+                Kompaniya tarixi</h2>
+
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="flex items-center gap-4 mb-4">
+                            <h3
+                                class="text-[28px] md:text-[40px] text-[#0073FF] font-semibold leading-13 font-poppins ">
+                                2025</h3>
+                            <div class="bg-[#D9D9D9] max-w-119 w-full h-px hidden md:block"></div>
+                        </div>
+                        <div class="bg-[#0073FF] md:bg-[#D6E8FF] h-2 md:h-8 mb-4"></div>
+                        <p class="text-sm md:text-base font-normal leading-5 md:leading-6 text-[#808084]">Qurilish uchun
+                            mo‘ljallangan bochka — bu turli xil suyuqliklar (masalan, suv, bo‘yoq, gruntovka, bitum,
+                            yoqilg‘i, yoki boshqa texnik aralashmalar)ni saqlash, tashish va ishlov berish uchun
+                            mo‘ljallangan mustahkam idishdir. Mahsulot yuqori sifatli materiallardan tayyorlanib,
+                            korroziyaga chidamli, suv o‘tkazmaydigan va uzoq muddatli foydalanish uchun moslashtirilgan.
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="flex items-center gap-4 mb-4">
+                            <h3
+                                class="text-[28px] md:text-[40px] text-[#0073FF] font-semibold leading-13 font-poppins ">
+                                2024</h3>
+                            <div class="bg-[#D9D9D9] max-w-119 w-full h-px hidden md:block"></div>
+                        </div>
+                        <div class="bg-[#0073FF] md:bg-[#D6E8FF] h-2 md:h-8 mb-4"></div>
+                        <p class="text-sm md:text-base font-normal leading-5 md:leading-6 text-[#808084]">Qurilish uchun
+                            mo‘ljallangan bochka — bu turli xil suyuqliklar (masalan, suv, bo‘yoq, gruntovka, bitum,
+                            yoqilg‘i, yoki boshqa texnik aralashmalar)ni saqlash, tashish va ishlov berish uchun
+                            mo‘ljallangan mustahkam idishdir. Mahsulot yuqori sifatli materiallardan tayyorlanib,
+                            korroziyaga chidamli, suv o‘tkazmaydigan va uzoq muddatli foydalanish uchun moslashtirilgan.
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="flex items-center gap-4 mb-4">
+                            <h3
+                                class="text-[28px] md:text-[40px] text-[#0073FF] font-semibold leading-13 font-poppins ">
+                                2023</h3>
+                            <div class="bg-[#D9D9D9] max-w-119 w-full h-px hidden md:block"></div>
+                        </div>
+                        <div class="bg-[#0073FF] md:bg-[#D6E8FF] h-2 md:h-8 mb-4"></div>
+                        <p class="text-sm md:text-base font-normal leading-5 md:leading-6 text-[#808084]">Qurilish uchun
+                            mo‘ljallangan bochka — bu turli xil suyuqliklar (masalan, suv, bo‘yoq, gruntovka, bitum,
+                            yoqilg‘i, yoki boshqa texnik aralashmalar)ni saqlash, tashish va ishlov berish uchun
+                            mo‘ljallangan mustahkam idishdir. Mahsulot yuqori sifatli materiallardan tayyorlanib,
+                            korroziyaga chidamli, suv o‘tkazmaydigan va uzoq muddatli foydalanish uchun moslashtirilgan.
+                        </p>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="flex items-center gap-4 mb-4">
+                            <h3
+                                class="text-[28px] md:text-[40px] text-[#0073FF] font-semibold leading-13 font-poppins ">
+                                2024</h3>
+                            <div class="bg-[#D9D9D9] max-w-119 w-full h-px hidden md:block"></div>
+                        </div>
+                        <div class="bg-[#0073FF] md:bg-[#D6E8FF] h-2 md:h-8 mb-4"></div>
+                        <p class="text-sm md:text-base font-normal leading-5 md:leading-6 text-[#808084]">Qurilish uchun
+                            mo‘ljallangan
+                            bochka — bu turli
+                            xil suyuqliklar (masalan, suv, bo‘yoq, gruntovka, bitum, yoqilg‘i, yoki boshqa texnik
+                            aralashmalar)ni saqlash, tashish va ishlov berish uchun mo‘ljallangan mustahkam
+                            idishdir. Mahsulot
+                            yuqori sifatli materiallardan tayyorlanib, korroziyaga chidamli, suv o‘tkazmaydigan va
+                            uzoq muddatli
+                            foydalanish uchun moslashtirilgan.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="pb-22 h-[50vh] md:h-[70vh] lg:h-[80vh]"
+        style="background-image: url(./img/mission/mission-bg.avif); background-repeat: no-repeat; background-position: center; background-size: cover;">
+        <div class="max-w-361 mx-auto px-4 text-white">
+            <div class="pt-5 md:pt-12 ">
+                <h2 class="text-2xl md:text-3xl lg:text-[40px] font-semibold leading-13 mb-4 font-poppins">Bizning
+                    missiyamiz</h2>
+                <p class="text-sm md:text-base font-normal leading-5 md:leading-6 font-inter max-w-147.75 w-full">
+                    Qurilish uchun mo‘ljallangan
+                    bochka — bu turli xil suyuqliklar (masalan, suv, bo‘yoq, gruntovka, bitum,
+                    yoqilg‘i, yoki boshqa texnik aralashmalar)ni saqlash, tashish va ishlov berish uchun mo‘ljallangan
+                    mustahkam idishdir. Mahsulot yuqori sifatli materiallardan tayyorlanib, korroziyaga chidamli, suv
+                    o‘tkazmaydigan va uzoq muddatli foydalanish uchun moslashtirilgan.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="pt-3 md:pt-6 pb-6 md:pb-20.5">
+        <div class="max-w-360 mx-auto px-4">
+            <h2
+                class="text-xl md:text-3xl lg:text-[40px] font-semibold leading-13 pt-0 md:pt-15 lg:pt-22 mb-0 md:mb-6 font-poppins">
+                Bizning qadriyatlarimiz</h2>
+
+            <div class="">
+                <div class="grid grid-cols-9 gap-2 md:gap-4">
+                    <img class="col-span-10 md:col-span-5 w-full h-48 md:h-75 object-cover"
+                        src="./img/values/values(4).avif" alt="values img">
+                    <img class="col-span-5 md:col-span-2 w-full h-48 md:h-75 object-cover"
+                        src="./img/values/values(3).avif" alt="values img">
+                    <img class="col-span-5 md:col-span-2 w-full h-48 md:h-75 object-cover"
+                        src="./img/values/values(2).avif" alt="values img">
+
+                    <img class="col-span-5 md:col-span-2 order-3 md:order-0 w-full h-48 md:h-75 object-cover"
+                        src="./img/values/values(1).avif" alt="values img">
+                    <img class="col-span-10 md:col-span-5 md:order-0 w-full h-48 md:h-75 object-cover"
+                        src="./img/values/values(4).avif" alt="values img">
+                    <img class="col-span-5 md:col-span-2 w-full h-48 md:h-75 object-cover"
+                        src="./img/values/values(1).avif" alt="values img">
+
+                    <img class="col-span-5 md:col-span-2 order-3 md:order-0 w-full h-48 md:h-75 object-cover"
+                        src="./img/values/values(2).avif" alt="values img">
+                    <img class="col-span-5 md:col-span-2 w-full h-48 md:h-75 object-cover"
+                        src="./img/values/values(3).avif" alt="values img">
+                    <img class="col-span-10 md:col-span-5 md:order-0 w-full h-48 md:h-75 object-cover"
+                        src="./img/values/values(4).avif" alt="values img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="pt-0 md:pt-10">
+        <div class="w-full mx-auto">
+            <div class="px-1 md:px-36.25 mx-auto justify-center relative">
+                <div class="bg-white max-w-100 w-full  p-4 md:p-8 static md:absolute top-10 ">
+                    <h3 class="text-xl md:text-2xl mb-2 md:mb-4 font-semibold leading-8 text-black">Aloqa ma'lumotlari
+                    </h3>
+                    <div class="mb-3 md:mb-6.75">
+                        <h3 class="text-[#BCBFC3] font-normal mb-2 leading-6 text-xs md:text-base font-inter">Manzil
+                        </h3>
+                        <p class="text-sm md:text-base font-normal leading-6 max-w-[303px] w-full">Toshkent sh., Sergeli
+                            tumani, Yangi
+                            Sergeli ko'chasi,
+                            42-uy</p>
+                    </div>
+                    <div class="mb-3 md:mb-6.75">
+                        <h3 class="text-[#BCBFC3] font-normal mb-2 leading-6 text-xs md:text-base font-inter">Telefon
+                        </h3>
+                        <p class="text-sm md:text-base font-normal leading-6">+998 90 123 45 67 <br>
+                            +998 71 234 56 78</p>
+                    </div>
+                    <div class="mb-3 md:mb-6.75">
+                        <h3 class="text-[#BCBFC3] font-normal mb-2 leading-6 text-xs md:text-base font-inter">Ish vaqti
+                        </h3>
+                        <p class="text-sm md:text-base font-normal leading-6">Dushanba - Shanba: 8:00 - 20:00 <br>
+                            Yakshanba: 9:00 -
+                            18:00</p>
+                    </div>
+                    <div class="mb-3 md:mb-6.75">
+                        <h3 class="text-[#BCBFC3] font-normal mb-2 leading-6 text-xs md:text-base font-inter">Email</h3>
+                        <p class="text-sm md:text-base font-normal leading-6">bochkauzinfo@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <iframe class="h-[399px] md:h-[624px]"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d191885.59854134795!2d69.11455778327546!3d41.282479929776926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b0cc379e9c3%3A0xa5a9323b4aa5cb98!2sTashkent%2C%20Uzbekistan!5e0!3m2!1sen!2s!4v1761659761797!5m2!1sen!2s"
+                width="100%" height="624" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <footer class="py-8 bg-black object-cover bg-cover mb-20 md:mb-0" style="background-image: url(./img/footer.png);">
+        <div class="max-w-[1440px] px-3 mx-auto pb-20 flex flex-wrap lg:flex-nowrap items-start justify-between gap-20">
+            <div class="max-w-[300px] w-full">
+                <img class="max-w-[209px] w-full h-auto mb-4" src="./img/foot_logo.png" alt="logo" loading="lazy"
+                    width="209" height="52">
+                <p class="text-[#5F7D9D] text-sm leading-5">Bizning xizmatimiz orqali siz istalgan turdagi mahsulotlarni
+                    topishingiz, narxlarni solishtirishingiz va eng
+                    qulay taklifni tanlashingiz mumkin</p>
+            </div>
+            <div class="flex flex-wrap md:flex-nowrap items-start gap-6 w-full">
+                <div class="flex flex-col gap-4 max-w-[305px] w-full">
+                    <p class="text-white text-sm font-medium leading-4">Xaridorlarga</p>
+                    <ul class="flex flex-col gap-4">
+                        <li><a class="text-[#5F7D9D] text-sm leading-5" href="#">Mahsulotni qanday tanlash kerak</a>
+                        </li>
+                        <li><a class="text-[#5F7D9D] text-sm leading-5" href="#">To‘lov va yetkazib berish</a></li>
+                        <li><a class="text-[#5F7D9D] text-sm leading-5" href="#">Fikr-mulohaza</a></li>
+                        <li><a class="text-[#5F7D9D] text-sm leading-5" href="#">Xizmat haqida</a></li>
+                        <li><a class="text-[#5F7D9D] text-sm leading-5" href="#">Qaytish</a></li>
+                    </ul>
+                </div>
+                <div class="flex flex-col gap-4 max-w-[330px] w-full">
+                    <p class="text-white text-sm font-medium leading-4">Hamkorlik</p>
+                    <ul class="flex flex-col gap-4">
+                        <li><a class="text-[#5F7D9D] text-sm leading-5" href="#">Buyurtma topshirish punktini oching</a>
+                        </li>
+                    </ul>
+                    <p class="text-white text-sm font-medium leading-4">Sotuvchilar</p>
+                    <ul class="flex flex-col gap-4">
+                        <li><a class="text-[#5F7D9D] text-sm leading-5" href="#">Hamkorlar uchun sayt</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex flex-col gap-6 w-full max-w-[316px]">
+                <div>
+                    <p class="text-[#8B9CAD] text-base leading-6 mb-2">Ijtimoiy tarmoqlar</p>
+                    <ul class="flex items-center gap-6">
+                        <li>
+                            <a target="_blank" href="#" class="text-white text-base leading-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path
+                                        d="M21.5 4.5V19.5C21.5 20.6046 20.6046 21.5 19.5 21.5H4.5C3.39543 21.5 2.5 20.6046 2.5 19.5V4.5C2.5 3.39543 3.39543 2.5 4.5 2.5H19.5C20.6046 2.5 21.5 3.39543 21.5 4.5Z"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M16.5 12C16.5 14.4853 14.4853 16.5 12 16.5C9.51472 16.5 7.5 14.4853 7.5 12C7.5 9.51472 9.51472 7.5 12 7.5C14.4853 7.5 16.5 9.51472 16.5 12Z"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round" />
+                                    <path d="M17.508 6.5H17.499" stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="#" class="text-white text-base leading-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path
+                                        d="M15.2064 9.76293L14.3045 10.6847L11 14L12.5 15.5M12.5 15.5L18 21L21.9996 3L2 11L7.5 14L8.5 20L12.5 15.5Z"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="#" class="text-white text-base leading-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path d="M15 12L10 9V15L15 12Z" stroke="white" stroke-width="1.5"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M18.8518 4.44087C16.7618 4.15764 14.4422 4 12 4C9.55778 4 7.23825 4.15764 5.14822 4.44087C3.29493 4.69202 2 6.32845 2 8.19868V15.8013C2 17.6715 3.29493 19.308 5.14822 19.5591C7.23825 19.8424 9.55778 20 12 20C14.4422 20 16.7618 19.8424 18.8518 19.5591C20.7051 19.308 22 17.6715 22 15.8013V8.19869C22 6.32845 20.7051 4.69202 18.8518 4.44087Z"
+                                        stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="#" class="text-white text-base leading-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path d="M6.5 9.5H2V22H6.5V9.5Z" stroke="white" stroke-width="1.5"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M6.5 4.25C6.5 5.49264 5.49264 6.5 4.25 6.5C3.00736 6.5 2 5.49264 2 4.25C2 3.00736 3.00736 2 4.25 2C5.49264 2 6.5 3.00736 6.5 4.25Z"
+                                        stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+                                    <path
+                                        d="M14.0001 9.5H9.5V22H14.0001V15.7502C14.0001 14.7837 14.7835 14.0002 15.75 14.0002C16.7165 14.0002 17.5 14.7837 17.5 15.7502V22H21.9987L22.0001 14.0002C22.0001 11.515 19.6364 9.50024 17.2968 9.50024C15.9649 9.50024 14.7767 10.1531 14.0001 11.174V9.5Z"
+                                        stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="#" class="text-white text-base leading-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path
+                                        d="M19.5 2.5C20.6046 2.5 21.5 3.39543 21.5 4.5V19.5C21.5 20.6046 20.6046 21.5 19.5 21.5H4.5C3.39543 21.5 2.5 20.6046 2.5 19.5V4.5C2.5 3.39543 3.39543 2.5 4.5 2.5H19.5Z"
+                                        stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+                                    <path
+                                        d="M17 7.5H14.0005C12.893 7.5 11.9964 8.39996 12.0005 9.50742L12.0153 13.4995M12.0153 13.4995V21.5M12.0153 13.4995H10M12.0153 13.4995H14.9999"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="text-[#8B9CAD] text-base leading-6 mb-2">E-mail</p>
+                    <ul class="flex items-center gap-6">
+                        <li>
+                            <a target="_blank" href="mailto:neosim@gmail.com"
+                                class="text-white text-base leading-4">neosim@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="text-[#8B9CAD] text-base leading-6 mb-2">Telefon raqam</p>
+                    <ul class="flex items-center gap-6">
+                        <li>
+                            <a target="_blank" href="tel:+998 (71) 200-00-00"
+                                class="text-white text-base leading-4">+998 (71)
+                                200-00-00</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="text-[#8B9CAD] text-base leading-6 mb-2">Manzil</p>
+                    <ul class="flex items-center gap-6">
+                        <li>
+                            <a target="_blank" href="#" class="text-white text-base leading-4">Tashkent Uzbekistan,
+                                Islom Karimov
+                                18/1</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="border-t border-[#5F7D9D]/50">
+            <div class="max-w-[1440px] mx-auto px-3 flex flex-wrap items-center justify-between gap-4 pt-6">
+                <p class="text-white/50 md:text-base text-xs md:leading-6">Bochka.uz 2025. Barcha huquqlar himoyalangan.
+                </p>
+                <p class="text-white/50 md:text-base text-xs md:leading-6">Designed by SIDQ Agency</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="fixed md:hidden w-full bg-white pt-2 pb-4 bottom-0 left-0 flex items-center justify-between"
+        style="box-shadow: 0px -2px 24px 0px #0000001F;">
+        <button
+            class="flex flex-col gap-1.5 max-w-[90px] w-full justify-center text-center text-[#9BA7AE] font-medium text-xs leading-4">
+            <span class="flex justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M12 1.75C12.4925 1.75 12.9709 1.91556 13.3574 2.2207L21.9521 9.00684L22.1309 9.16504C22.5248 9.55636 22.75 10.0915 22.75 10.6533C22.7497 11.7787 21.8629 12.6943 20.75 12.7451V15.5645C20.75 16.9275 20.7501 18.0267 20.6338 18.8916C20.5128 19.7917 20.2533 20.5494 19.6514 21.1514C19.0494 21.7533 18.2917 22.0128 17.3916 22.1338C16.7341 22.2222 15.9412 22.243 15 22.248H9C8.05875 22.243 7.26589 22.2222 6.6084 22.1338C5.76456 22.0203 5.04541 21.7856 4.46289 21.2607L4.34863 21.1514C3.74672 20.5494 3.48723 19.7917 3.36621 18.8916C3.27902 18.243 3.25739 17.4627 3.25195 16.5381L3.25 15.5645V12.7451C2.13709 12.6943 1.25025 11.7787 1.25 10.6533C1.25 10.0115 1.54409 9.40454 2.04785 9.00684L10.6426 2.2207L10.792 2.11328C11.1492 1.87709 11.5691 1.75 12 1.75ZM11.5 14C10.5654 14 10.0981 14.0002 9.75 14.2012C9.52204 14.3328 9.3328 14.522 9.20117 14.75C9.00021 15.0981 9 15.5654 9 16.5V20.248H15V16.5C15 15.5654 14.9998 15.0981 14.7988 14.75C14.6672 14.522 14.478 14.3328 14.25 14.2012C13.9019 14.0002 13.4346 14 12.5 14H11.5Z"
+                        fill="currentColor" />
+                </svg>
+            </span>
+            Uy
+        </button>
+
+        <button
+            class="flex flex-col gap-1.5 max-w-[90px] w-full justify-center text-center text-[#9BA7AE] font-medium text-xs leading-4">
+            <span class="flex justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M2.5 9H6.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M2.5 14H6.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M2.5 4H18.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path
+                        d="M18.5355 17.0355L21.5 20M20 13.5C20 10.7386 17.7614 8.5 15 8.5C12.2386 8.5 10 10.7386 10 13.5C10 16.2614 12.2386 18.5 15 18.5C17.7614 18.5 20 16.2614 20 13.5Z"
+                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </span>
+            Katalog
+        </button>
+
+        <button
+            class="flex flex-col gap-1.5 max-w-[90px] w-full justify-center text-center text-[#9BA7AE] font-medium text-xs leading-4">
+            <span class="flex justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                    <path d="M15.5835 15.5833L19.2502 19.2499" stroke="currentColor" stroke-width="1.5"
+                        stroke-linecap="square" />
+                    <path
+                        d="M17.4167 10.0833C17.4167 6.03324 14.1334 2.75 10.0833 2.75C6.03324 2.75 2.75 6.03324 2.75 10.0833C2.75 14.1334 6.03324 17.4167 10.0833 17.4167C14.1334 17.4167 17.4167 14.1334 17.4167 10.0833Z"
+                        stroke="currentColor" stroke-width="1.5" stroke-linecap="square" />
+                </svg>
+            </span>
+            Qidiruv
+        </button>
+
+        <button
+            class="flex flex-col gap-1.5 max-w-[90px] w-full justify-center text-center text-[#9BA7AE] font-medium text-xs leading-4">
+            <span class="flex justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M4 5H16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M4 12H20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M4 19H12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </span>
+            Menu
+        </button>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            freeMode: true,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            autoplay: {
+                delay: 1500,
+                disableOnInteraction: false,
+            },
+            speed: 1100,
+            breakpoints: {
+                320: {
+                    slidesPerView: 1,
+                },
+                768: {
+                    slidesPerView: 2,
+                },
+                1224: {
+                    slidesPerView: 2.7,
+                },
+            },
+        });
+    </script>
+</body>
+
+</html>
